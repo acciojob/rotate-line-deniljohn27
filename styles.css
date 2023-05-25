@@ -5,13 +5,14 @@
 	width:200px;
 	height:2px;
 	margin:160px;
-	animation: line 2s linear infinite;
+	animation: lines 2s linear infinite;
 	animation-direction:reverse;
 
-	@keyframes line{
-		to{
+	@keyframes lines{
+		from{
 			transform:rotate(0deg);
-		}from{
+		}
+		to{
 			transform:rotate(360deg);
 		}
 	}
