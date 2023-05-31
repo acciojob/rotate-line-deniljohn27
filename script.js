@@ -1,6 +1,6 @@
 
 window.onload=function(){
-	var line=document.getElementById()"line";
+	var line=document.getElementById("line");
 	var angle=0;
 	var speed=1;
 	fucntion rotateLine(){
